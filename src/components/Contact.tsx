@@ -169,7 +169,7 @@ const Contact = () => {
                   <p className="text-primary">● Available for freelance projects</p>
                   <p className="text-primary">● Open to full-time opportunities</p>
                   <p className="text-primary">● Accepting security consultations</p>
-                  <p className="text-secondary">● Graduating in 2026</p>
+                  <p className="text-secondary">● Graduated in 2026</p>
                 </div>
               </div>
 

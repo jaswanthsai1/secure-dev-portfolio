@@ -4,15 +4,14 @@ import { useEffect } from "react";
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Security Testing",
+      category: "Security Domains",
       skills: [
-        "Network Security",
-        "Vulnerability Assessment",
         "Penetration Testing",
-        "Web App Testing",
-        "API Testing",
-        "SIEM (Splunk)",
-        "Incident Response",
+        "Web & API Vulnerability Assessment",
+        "Bug Bounty Research",
+        "OSINT & Reconnaissance",
+        "Network Security",
+        "Vulnerability Disclosure & Reporting",
       ],
     },
     {
@@ -22,27 +21,20 @@ const Skills = () => {
         "Wireshark",
         "Burp Suite",
         "Maltego",
+        "RustScan",
+        "Subfinder",
+        "Amass",
         "Kali Linux",
         "Parrot OS",
-        "Postman",
-        "OWASP ZAP",
       ],
     },
     {
-      category: "Programming & Scripting",
-      skills: ["Python", "Bash", "JavaScript", "HTML/CSS", "SQL/MySQL", "GraphQL", "REST APIs"],
+      category: "Programming & Web",
+      skills: ["Python", "Bash", "JavaScript/TypeScript", "HTML", "MySQL", "React"],
     },
     {
-      category: "Specializations",
-      skills: [
-        "OSINT",
-        "Threat Intelligence",
-        "BOLA/IDOR",
-        "XSS & SQLi",
-        "CSRF",
-        "Authentication Bypass",
-        "Authorization Flaws",
-      ],
+      category: "Bug Bounty Platforms",
+      skills: ["HackerOne", "Bugcrowd", "Direct Vendor Disclosure"],
     },
   ];
 
@@ -105,10 +97,10 @@ const Skills = () => {
           {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {[
-              { value: "10+", label: "CTF Challenges" },
-              { value: "Multiple", label: "Certifications" },
-              { value: "Bug Hunter", label: "Active Status" },
-              { value: "2026", label: "Graduating" },
+              { value: "21", label: "Security Tools Built" },
+              { value: "8.412", label: "Journal Impact Factor" },
+              { value: "3", label: "Bug Bounty Platforms" },
+              { value: "2026", label: "Graduated" },
             ].map((stat, idx) => (
               <div
                 key={idx}

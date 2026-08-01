@@ -1,26 +1,26 @@
-import { Shield, Code, Bug, Network } from "lucide-react";
+import { Shield, Code, Bug, FileText } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
       icon: Shield,
-      title: "Security First",
-      description: "Expert in vulnerability assessment and penetration testing",
-    },
-    {
-      icon: Code,
-      title: "Full Stack Developer",
-      description: "Building secure, scalable web and mobile applications",
+      title: "Penetration Testing",
+      description: "Web, API & infrastructure vulnerability assessment",
     },
     {
       icon: Bug,
-      title: "Bug Hunter",
-      description: "Active researcher finding critical vulnerabilities",
+      title: "Bug Bounty Researcher",
+      description: "Active on HackerOne, Bugcrowd & direct vendor disclosure",
     },
     {
-      icon: Network,
-      title: "Network Security",
-      description: "Skilled in network protocols and infrastructure security",
+      icon: FileText,
+      title: "Published Author",
+      description: "IJIRT paper (Impact Factor 8.412) on a 21-tool security toolkit",
+    },
+    {
+      icon: Code,
+      title: "Security Tool Developer",
+      description: "Building secure, scalable full-stack applications",
     },
   ];
 
@@ -52,29 +52,36 @@ const About = () => {
                   <span className="text-primary font-semibold">
                     Maturi Jaswanth Sai Madhu Mohan
                   </span>
-                  , a passionate cybersecurity professional from Guntur,
-                  Andhra Pradesh. Currently pursuing B.Tech in Computer Science
-                  with specialization in Cybersecurity at Dhanalakshmi
-                  Srinivasan University.
+                  , a recently graduated cybersecurity professional from Guntur,
+                  Andhra Pradesh, with a B.Tech in Cyber Security from
+                  Dhanalakshmi Srinivasan University.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  My expertise spans across network security, web application
-                  penetration testing, and API security. I'm also skilled as an{" "}
+                  My hands-on experience spans{" "}
                   <span className="text-primary font-semibold">
-                    App Developer
-                  </span>{" "}
-                  and{" "}
-                  <span className="text-primary font-semibold">
-                    Full Stack Developer
+                    penetration testing
                   </span>
-                  , building secure and scalable applications.
+                  ,{" "}
+                  <span className="text-primary font-semibold">
+                    bug bounty research
+                  </span>
+                  , and security tool development. I'm an active researcher on
+                  HackerOne, Bugcrowd, and direct vendor disclosure programs,
+                  and I'm currently pursuing EC-Council's CPENT certification —
+                  selected for the "Hack for Humanity" program toward LPT.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  As an active bug hunter, I've discovered and reported
-                  vulnerabilities across various platforms, including findings
-                  accepted by major tech companies like Google.
+                  I co-authored{" "}
+                  <span className="text-primary font-semibold">
+                    Cyber Guardian 360
+                  </span>
+                  , a peer-reviewed, published web-based cybersecurity toolkit
+                  (IJIRT, Impact Factor 8.412) running 21 real security tools,
+                  and I authored a detailed infrastructure security report on
+                  sandbox/container architecture for a major AI provider's
+                  HackerOne program.
                 </p>
               </div>
 
@@ -87,7 +94,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div>
                     <p className="text-primary font-semibold">
-                      B.Tech Computer Science & Cybersecurity
+                      B.Tech in Cyber Security
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Dhanalakshmi Srinivasan University

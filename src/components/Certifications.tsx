@@ -5,28 +5,28 @@ import CertificateGallery from "./CertificateGallery";
 const Certifications = () => {
   const certifications = [
     {
-      title: "Ethical Hacking Certifications",
-      issuer: "Multiple Organizations",
-      description: "Comprehensive certifications covering ethical hacking methodologies, penetration testing, and security assessment techniques.",
-      areas: ["Network Security", "Web Security", "Incident Response", "Security Auditing"]
+      title: "CPENT",
+      issuer: "EC-Council · Expected 2026",
+      description: "Certified Penetration Testing Professional — advanced hands-on certification covering enterprise network pentesting, exploit development, and evasion techniques.",
+      areas: ["Advanced Pentesting", "Exploit Development", "Network Security"]
     },
     {
-      title: "Data Analysis with Python",
-      issuer: "IBM via Cognitive Class",
-      description: "Professional certification in Python programming for data analysis, applicable to security data analytics and threat intelligence.",
-      areas: ["Python", "Data Analysis", "Security Analytics"]
+      title: "LPT",
+      issuer: "EC-Council \"Hack for Humanity\" Program · Expected 2026",
+      description: "Licensed Penetration Tester pathway — selected for EC-Council's Hack for Humanity program toward the LPT credential.",
+      areas: ["Penetration Testing", "Professional Certification"]
     },
     {
-      title: "coDE2cAREER Cyber Security",
-      issuer: "Dhanalakshmi Srinivasan University",
-      description: "Successfully cleared qualifier test demonstrating potential and aptitude in Cyber Security through the Student Developer Community program.",
-      areas: ["Cybersecurity", "Security Training", "Professional Development"]
+      title: "Active Bug Bounty Researcher",
+      issuer: "HackerOne · Bugcrowd · Direct Vendor Disclosure",
+      description: "6–12 months as an active security researcher, reporting vulnerabilities across web, API, and infrastructure targets using a structured recon → analysis → PoC → severity → report methodology.",
+      areas: ["Vulnerability Research", "Responsible Disclosure", "Web & API Security"]
     },
     {
-      title: "Bug Bounty Programs",
-      issuer: "HackerOne & Various Platforms",
-      description: "Active participation in private bug bounty programs with successful vulnerability disclosures and recognition from major tech companies.",
-      areas: ["Vulnerability Research", "Responsible Disclosure", "Web Security"]
+      title: "Published Security Researcher",
+      issuer: "IJIRT · ISSN 2349-6002 · Impact Factor 8.412",
+      description: "Co-authored \"Cyber Guardian 360: A Web-Based Cybersecurity Toolkit for Real-Time Security Analysis,\" Vol. 12, Issue 12, May 2026.",
+      areas: ["Published Research", "Security Tooling", "Peer-Reviewed"]
     }
   ];
 

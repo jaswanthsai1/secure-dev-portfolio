@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
-              © 2025 Jaswanth Sai Madhu Mohan. All rights reserved.
+              © 2026 Jaswanth Sai Madhu Mohan. All rights reserved.
             </p>
           </div>
 

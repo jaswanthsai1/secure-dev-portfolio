@@ -6,7 +6,7 @@ import profileImage from "@/assets/profile-2.jpg";
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState("");
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
-  const fullText = "Web & API Penetration Tester";
+  const fullText = "Penetration Tester & Bug Bounty Researcher";
 
   // Typewriter effect
   useEffect(() => {
@@ -75,7 +75,9 @@ const Hero: React.FC = () => {
             </p>
 
             <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Cybersecurity specialist focused on web & API security, vulnerability research & exploitation.
+              Cybersecurity graduate specializing in penetration testing, bug bounty research & security tool
+              development. Published researcher (IJIRT, Impact Factor 8.412) · Active on HackerOne & Bugcrowd ·
+              Pursuing CPENT certification.
             </p>
 
             {/* BUTTONS */}
